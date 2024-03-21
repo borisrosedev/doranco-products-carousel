@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/base.css">
+</head>
+<body>
+
+    <div id="app">
+        <div id="products-section">
+
+        </div>
+    </div>
+    <script>
+
+        window.addEventListener("DOMContentLoaded", async() => {
+            const productsSection = document.getElementById("products-section")
+            const phones = await (await fetch("/data/phones.json")).json()
+            for(const el of phones){
+                const figure = document.createElement("figure")
+                const image = document.createElement("img")
+                image.setAttribute("src", el.url)
+                figure.appendChild(image)
+                productsSection.appendChild(figure)
+            }
+
+        })
+     
+
+    </script>
+</body>
+</html>
