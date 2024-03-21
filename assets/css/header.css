@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    position: fixed;
+    z-index: 5;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    animation: move-down 500ms ease-in-out 3500ms forwards;
+ 
+}
+
+
+
+.header figure {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.header nav, .header ul {
+    display: flex;
+    ;
+    
+}
+
+.header ul {
+    list-style: none;
+    width: 100%;
+
+    
+    display: flex;
+    li {
+        margin-inline: 10px;
+    }
+}
+
+.header a {
+    color: white;
+
+}

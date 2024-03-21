@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "url": "../assets/images/artworks/beauty.jpg",
+    "name": "La vedette mystérieuse",
+    "price": 10000
+  },
+  {
+    "id": 1,
+    "url": "../assets/images/artworks/bicycle.jpg",
+    "name": "Le vélo bleu",
+    "price": 300
+  },
+  {
+    "id": 2,
+    "url": "../assets/images/artworks/black.jpg",
+    "name": "La plus belle",
+    "price": 2000
+  },
+  {
+    "id": 3,
+    "url": "../assets/images/artworks/flower.jpg",
+    "name": "La femme aux fleurs",
+    "price": 1000
+  },
+  {
+    "id": 4,
+    "url": "../assets/images/artworks/glass.jpg",
+    "name": "Femme aux lunettes",
+    "price": 200
+  }
+]
